@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane prefHeight="619.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <content>
+      <AnchorPane prefHeight="1072.0" prefWidth="723.0">
+      	
+         <children>
+            <Button id="reqECQV" fx:id="reqECQV" layoutX="307.0" layoutY="301.0" mnemonicParsing="false" onAction="#genECQV" prefHeight="23.0" prefWidth="128.0" text="Request" AnchorPane.bottomAnchor="748.0" AnchorPane.leftAnchor="307.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="301.0" />
+            <TextField id="cerECQV" fx:id="cerECQV" layoutX="467.0" layoutY="280.0" prefHeight="66.0" prefWidth="175.0" />
+            <Label layoutX="326.0" layoutY="244.0" prefHeight="15.0" prefWidth="111.0" text="ECQV Generation" />
+            <Label layoutX="303.0" layoutY="474.0" text="Proxy Credential Generation" />
+            <TextField id="cerProxy" fx:id="cerProxy" layoutX="497.0" layoutY="519.0" prefHeight="66.0" prefWidth="161.0" />
+            <Button id="proxyECQV" fx:id="proxyECQV" layoutX="346.0" layoutY="540.0" mnemonicParsing="false" onAction="#proxyECQV" prefHeight="23.0" prefWidth="88.0" text="Gen" />
+            <Button id="verProxyECQV" fx:id="verProxyECQV" layoutX="346.0" layoutY="630.0" mnemonicParsing="false" onAction="#verProxyECQV" prefHeight="23.0" prefWidth="88.0" text="Verify" />
+            <TextField id="checkProxy" fx:id="checkProxy1" layoutX="119.0" layoutY="616.0" prefHeight="52.0" prefWidth="161.0" text="Type in proxy credential" />
+            <Label layoutX="287.0" layoutY="736.0" text="Update Credential Generation" />
+            <TextField id="cerUpdate" fx:id="cerUpdate" layoutX="493.0" layoutY="764.0" prefHeight="66.0" prefWidth="161.0" />
+            <Button id="updateECQV" fx:id="updateECQV" layoutX="342.0" layoutY="786.0" mnemonicParsing="false" onAction="#updateECQV" prefHeight="23.0" prefWidth="88.0" text="Gen" />
+            <TextField id="checkUpdate" fx:id="checkUpdate1" layoutX="115.0" layoutY="859.0" prefHeight="31.0" prefWidth="161.0" text="Type in update credential" />
+            <Button id="verUpdateECQV" fx:id="verUpdateECQV" layoutX="342.0" layoutY="900.0" mnemonicParsing="false" onAction="#verUpdateECQV" prefHeight="23.0" prefWidth="88.0" text="Verify" />
+            <TextField id="checkECQV" fx:id="checkECQV1" layoutX="62.0" layoutY="353.0" prefHeight="66.0" prefWidth="214.0" text="Type in ECQV certificate" />
+            <Button id="verECQV" fx:id="verECQV" layoutX="306.0" layoutY="375.0" mnemonicParsing="false" onAction="#verECQV" prefHeight="23.0" prefWidth="128.0" text="Verify" />
+            <TextField fx:id="checkECQV2" layoutX="466.0" layoutY="353.0" prefHeight="66.0" prefWidth="176.0" />
+            <TextField fx:id="checkProxy2" layoutX="497.0" layoutY="616.0" prefHeight="52.0" prefWidth="161.0" />
+            <TextField fx:id="checkUpdate2" layoutX="493.0" layoutY="879.0" prefHeight="66.0" prefWidth="161.0" />
+            <TextField id="checkUpdate1" fx:id="checkUpdate11" layoutX="115.0" layoutY="896.0" prefHeight="31.0" prefWidth="161.0" text="TYPE IN" />
+            <TextField id="checkUpdate2" fx:id="checkUpdate12" layoutX="115.0" layoutY="934.0" prefHeight="31.0" prefWidth="161.0" text="TYPE IN" />
+            <TextField fx:id="resSetup" layoutX="489.0" layoutY="126.0" prefHeight="66.0" prefWidth="161.0" />
+            <TextField layoutX="99.0" layoutY="126.0" prefHeight="66.0" prefWidth="161.0" text="No Input" />
+            <Button fx:id="setup" layoutX="329.0" layoutY="147.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="88.0" text="Setup" />
+            <Label layoutX="356.0" layoutY="97.0" text="Setup" />
+            <TextField layoutX="84.0" layoutY="269.0" prefHeight="66.0" prefWidth="161.0" text="Type in parameters" />
+            <TextField layoutX="78.0" layoutY="519.0" prefHeight="66.0" prefWidth="202.0" text="Type in original ECQV certificate" />
+            <TextField layoutX="115.0" layoutY="764.0" prefHeight="66.0" prefWidth="161.0" text="Type in parameters" />
+            
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
